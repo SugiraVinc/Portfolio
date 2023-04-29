@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portofo.css">
+
+
+   <link rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+   <!-- or -->
+   <link rel="stylesheet"
+   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <title>FreshLink</title>
+    
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header>
+        <a href="#" class="logo">
+            <img src="profile.jpeg">
+            <i> Sugira Vincent Portfolio</i> 
+        </a>
+
+        <ul class="navbar">
+            <li><a href="#" class="active"> About </a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Tech Blog</a></li>
+            <li><a href="#">Read My Poems</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="header-icons">
+            <i class='bx bx-cart' ></i>
+            <div class="bx bx-menu" id="menu-icon"></div>
+
+         </div>
+    </header>
+
+    <!-- Home design -->
+
+    <section class="home">
+        <div class="home-img">
+            <img src="Sugira Vincent.png" class="one">
+        </div>
+
+        <div class="home-text">
+            <h1> Sugira <br> Vincent</h1>
+            <p> Sugira Vincent is a second-year Bachelor's of Sofware Engineering student at the African Leadership University.</br> 
+            My mission to find ways to use technology and art to fight mental health problems in African Youth.</p>
+            <h3> @Art & Tech </h3>
+            <a href="https://github.com/SugiraVinc" class="btn" target="_blank"> Github</a>
+        </div>
+    </section>
+
+    <div class="main">
+        <div class="row">
+            <li><img src="colorful-welcome-design-template-free-vector.webp" onclick="slider('Welcome.png')"></li>
+        </div>
+
+        <div class="row row2">
+            <li><img src="Handshake (1).png" onclick="slider('AirBnBClone.png')"></li>
+        </div>
+ 
+        <div class="row row3">
+            <li><img src="Training.png" onclick="slider('FreshLink Logo (1).png')"></li>
+        </div>
+
+    </div>
+
+    <a href="#" class="bottom">Scroll DOwn<i class='bx bx-down-arrow-circle'></i> </a>
+
+    <script type="text/javascript">
+        function slider(anything){
+            document.querySelector('.one').src = anything;
+        };
+    </script>
+
+
+
+
+</body>
+</html>
